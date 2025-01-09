@@ -2,7 +2,6 @@ baseURL: https://floating-gardens.github.io/wiki/
 languageCode: en-us
 title: 🍃Floating Gardens Wiki
 theme: ["PaperMod"]
-relativeURLs: true
 
 menu:
   main:
