@@ -4,8 +4,7 @@ date: 2025-01-01
 tags: ["announcements"]
 draft: false
 cover:
-  image: "/images/fg-building.png"
-  relative: false # To use relative path for cover image, used in hugo Page-bundles
+  image: "images/fg-building.png"
 weight: 1
 ---
 
