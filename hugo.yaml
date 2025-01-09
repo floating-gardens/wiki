@@ -1,0 +1,37 @@
+baseURL: https://fg-wiki.org/
+languageCode: en-us
+title: 🍃Floating Gardens Wiki
+theme: ["PaperMod"]
+
+menu:
+  main:
+    - identifier: faq
+      name: "FAQ"
+      url: "/faq/"
+      weight: 1
+    - identifier: contact
+      name: "Contact"
+      url: "/contact/"
+      weight: 2
+    - identifier: manuals
+      name: "Manuals"
+      url: "/manuals/"
+      weight: 3
+    - identifier: search
+      name: "Search"
+      url: "/search/"
+      weight: 4
+    - identifier: archive
+      name: "Archive"
+      url: "/archive/"
+      weight: 5
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+params:
+  defaultTheme: dark
+  ShowReadingTime: true

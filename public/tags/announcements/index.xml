@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Announcements on 🍃Floating Gardens Wiki</title>
+    <link>http://localhost:1313/tags/announcements/</link>
+    <description>Recent content in Announcements on 🍃Floating Gardens Wiki</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing the Wiki</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;p&gt;This wiki serves as a centralized hub for all things related to Floating Gardens.
+Here, you’ll find:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Building updates&lt;/strong&gt;: Stay informed about maintenance, renovations, or upcoming developments.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;VVE information&lt;/strong&gt;: Learn about the Owners Association, its decisions, and how it impacts the community.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Resources&lt;/strong&gt;: Access to useful information such as emergency contacts and frequently asked questions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;get-involved&#34;&gt;Get Involved&lt;/h2&gt;
+&lt;p&gt;Interested in joining the Tenants Association? Or perhaps you’d like to contribute content to this wiki? Reach out to us at &lt;a href=&#34;mailto:contact@example.org&#34;&gt;contact@example.org&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

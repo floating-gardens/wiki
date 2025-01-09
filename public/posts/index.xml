@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on 🍃Floating Gardens Wiki</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on 🍃Floating Gardens Wiki</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing the Wiki</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;p&gt;This wiki serves as a centralized hub for all things related to Floating Gardens.
+Here, you’ll find:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Building updates&lt;/strong&gt;: Stay informed about maintenance, renovations, or upcoming developments.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;VVE information&lt;/strong&gt;: Learn about the Owners Association, its decisions, and how it impacts the community.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Resources&lt;/strong&gt;: Access to useful information such as emergency contacts and frequently asked questions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;get-involved&#34;&gt;Get Involved&lt;/h2&gt;
+&lt;p&gt;Interested in joining the Tenants Association? Or perhaps you’d like to contribute content to this wiki? Reach out to us at &lt;a href=&#34;mailto:contact@example.org&#34;&gt;contact@example.org&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tenants Association Meeting Notes</title>
+      <link>http://localhost:1313/posts/vve-meeting-notes-2024-12/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/vve-meeting-notes-2024-12/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a urna odio. Proin cursus id nisl quis sagittis. Vivamus vulputate molestie magna, ac blandit dui posuere sit amet. Curabitur vehicula, dui a dapibus volutpat, purus orci mollis sem, sed facilisis lectus risus non orci. Donec lacus turpis, eleifend quis odio lacinia, sollicitudin tincidunt neque. Aenean accumsan malesuada lacinia. Suspendisse nec hendrerit mi. Phasellus volutpat elit tincidunt nisl egestas, in ullamcorper tellus gravida. Morbi a est non orci tempus consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>VVE Meeting Notes</title>
+      <link>http://localhost:1313/posts/vve-meeting-notes-2024-11/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/vve-meeting-notes-2024-11/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a urna odio. Proin cursus id nisl quis sagittis. Vivamus vulputate molestie magna, ac blandit dui posuere sit amet. Curabitur vehicula, dui a dapibus volutpat, purus orci mollis sem, sed facilisis lectus risus non orci. Donec lacus turpis, eleifend quis odio lacinia, sollicitudin tincidunt neque. Aenean accumsan malesuada lacinia. Suspendisse nec hendrerit mi. Phasellus volutpat elit tincidunt nisl egestas, in ullamcorper tellus gravida. Morbi a est non orci tempus consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
