@@ -3,7 +3,6 @@ languageCode: en-us
 title: 🍃Floating Gardens Wiki
 theme: ["PaperMod"]
 relativeURLs: true
-canonifyURLs: true
 
 menu:
   main:
