@@ -4,7 +4,7 @@ date: 2025-01-01
 tags: ["announcements"]
 draft: false
 cover:
-  image: "images/fg-building.png"
+  image: "/images/fg-building.png"
 weight: 1
 ---
 
