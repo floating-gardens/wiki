@@ -1,5 +1,5 @@
 ---
-title: "Appliance Manuals"
+title: Appliance Manuals
 ---
 
 Below you will find links to user manuals for common appliances in the rental units. 
