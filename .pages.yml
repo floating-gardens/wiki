@@ -11,14 +11,13 @@ content:
         label: Date
         type: date
       - name: tags
-        label: Tags
+        label: Tag
         type: select
-        list: true
         options:
           values:
             - announcements
             - notes
-            - event
+            - events
       - name: draft
         label: Draft
         type: boolean
@@ -32,7 +31,7 @@ content:
             required: false
       - name: body
         label: Body
-        type: text
+        type: code
 
 media:
   input: static/images # Media files will be stored in the repo under static/images
