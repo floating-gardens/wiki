@@ -3,6 +3,7 @@ content:
     label: Contact Page
     path: content/contact/index.md
     type: file
+    format: yaml-frontmatter
     fields:
       - name: title
         label: Title
