@@ -3,10 +3,6 @@ languageCode: en-us
 title: 🍃Floating Gardens Wiki
 theme: ["PaperMod"]
 
-module:
-  imports:
-  - path: github.com/privatemaker/headless-cms
-
 menu:
   main:
     - identifier: faq
@@ -35,51 +31,7 @@ outputs:
     - HTML
     - RSS
     - JSON
-    - HeadlessCMSConfig
 
 params:
   defaultTheme: dark
   ShowReadingTime: true
-  headless_cms:
-    engine: "sveltia"
-    site_url: "https://foating-gardens.wiki"
-    backend:
-      name: "github"
-      repo: "floating-gardens/wiki"
-    media_folder: "static/images" # Media files will be stored in the repo under static/images
-    public_folder: "/images" # The src attribute for uploaded media will begin with /images
-    collections:
-      - name: posts
-        label: posts
-        create: true
-        folder: /content/posts
-        fields:
-          - label: "Title"
-            name: "title"
-            widget: "string"
-          - label: "Date"
-            name: "date"
-            widget: "datetime"
-          - label: "Tags"
-            name: "tags"
-            widget: "select"
-            multiple: true
-            min: 1
-            max: 3
-            options: ["announcements", "notes", "event"]
-            default: ["Design"]
-          - label: "Draft"
-            name: "draft"
-            widget: "boolean"
-          - label: "Cover"
-            name: "cover"
-            widget: "object"
-            fields:
-              - label: "Image"
-                name: "image"
-                widget: "image"
-                required: false
-          - label: "Body"
-            name: "body"
-            widget: "markdown"
-

@@ -13,6 +13,7 @@ content:
       - name: tags
         label: Tag
         type: select
+        list: true
         options:
           values:
             - announcements
