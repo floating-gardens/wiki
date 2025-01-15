@@ -31,9 +31,7 @@ content:
             required: false
       - name: body
         label: Body
-        type: code
-        options:
-          language: markdown
+        type: rich-text
 
 media:
   input: static/images # Media files will be stored in the repo under static/images
