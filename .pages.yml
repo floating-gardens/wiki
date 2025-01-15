@@ -3,29 +3,49 @@ content:
     label: Contact Page
     path: content/contact/index.md
     type: file
-    format: yaml-frontmatter
     fields:
-      - name: title
-        label: Title
-        type: string
+      - { name: title, label: Title, type: string }
+      - name: body
+        label: Body
+        type: rich-text
+        options:
+          image:
+            path: static/images
+            input: static/images
+            output: /images
+            extensions: [ jpg, jpeg, png ]      
 
   - name: manuals
     label: Manuals Page
     path: content/manuals/index.md
     type: file
     fields:
-      - name: title
-        label: Title
-        type: string
+      - { name: title, label: Title, type: string }
+      - name: body
+        label: Body
+        type: rich-text
+        options:
+          image:
+            path: static/images
+            input: static/images
+            output: /images
+            extensions: [ jpg, jpeg, png ]
 
   - name: faq
     label: FAQ Page
     path: content/faq/index.md
     type: file
     fields:
-      - name: title
-        label: Title
-        type: string
+      - { name: title, label: Title, type: string }
+      - name: body
+        label: Body
+        type: rich-text
+        options:
+          image:
+            path: static/images
+            input: static/images
+            output: /images
+            extensions: [ jpg, jpeg, png ]
 
   - name: posts
     label: Posts
@@ -54,7 +74,6 @@ content:
       - name: draft
         label: Draft
         type: boolean
-        default: false
       - name: cover
         label: Cover
         type: object
