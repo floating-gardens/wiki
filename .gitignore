@@ -1,1 +1,17 @@
+# Hugo module cache
+/resources/
 public/
+/hugo_cache/
+
+# Hugo build artifacts
+*.log
+*.bak
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
