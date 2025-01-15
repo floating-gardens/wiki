@@ -11,10 +11,15 @@ content:
       - name: title
         label: Title
         type: string
-      - name: weight
-        label: Priority
-        type: number
-        required: false
+      - name: body
+        label: Body
+        type: rich-text
+        options:
+          image:
+            path: static/images
+            input: static/images
+            output: /images
+            extensions: [ jpg, jpeg, png ]
       - name: date
         label: Date
         type: date
@@ -27,26 +32,15 @@ content:
             - announcements
             - notes
             - events
+        default: ["announcements"]
+      - name: weight
+        label: Priority
+        type: number
+        required: false
       - name: draft
         label: Draft
         type: boolean
-      - name: cover
-        label: Cover
-        type: object
-        fields:
-          - name: image
-            label: Image
-            type: image
-            required: false
-      - name: body
-        label: Body
-        type: rich-text
-        options:
-          image:
-            path: static/images
-            input: static/images
-            output: /images
-            extensions: [ jpg, jpeg, png ]
+        default: false
 
   - name: contact
     label: Contact Page
