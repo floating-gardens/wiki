@@ -33,6 +33,14 @@ content:
             - notes
             - events
         default: ["announcements"]
+      - name: cover
+        label: Cover
+        type: object
+        fields:
+          - name: image
+            label: Image
+            type: image
+            required: false
       - name: weight
         label: Priority
         type: number
