@@ -4,21 +4,27 @@ content:
     path: content/contact/index.md
     type: file
     fields:
-      - { name: title, label: Title, type: string }
+      - name: title
+        label: Title
+        type: string
 
   - name: manuals
     label: Manuals Page
     path: content/manuals/index.md
     type: file
     fields:
-      - { name: title, label: Title, type: string }
+      - name: title
+        label: Title
+        type: string
 
   - name: faq
     label: FAQ Page
     path: content/faq/index.md
     type: file
     fields:
-      - { name: title, label: Title, type: string }
+      - name: title
+        label: Title
+        type: string
 
   - name: posts
     label: Posts
@@ -47,6 +53,7 @@ content:
       - name: draft
         label: Draft
         type: boolean
+        default: false
       - name: cover
         label: Cover
         type: object
