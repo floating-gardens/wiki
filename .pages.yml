@@ -32,7 +32,12 @@ content:
       - name: body
         label: Body
         type: rich-text
-
+        options:
+          image:
+            path: static/images
+            input: static/images
+            output: /images
+            extensions: [ jpg, jpeg, png ]
 media:
   input: static/images # Media files will be stored in the repo under static/images
   output: /images # The src attribute for uploaded media will begin with /images
