@@ -1,4 +1,53 @@
+media:
+  input: static/images
+  output: /images
+
 content:
+  - name: posts
+    label: Posts
+    path: content/posts
+    type: collection
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: weight
+        label: Priority
+        type: number
+        required: false
+      - name: date
+        label: Date
+        type: date
+      - name: tags
+        label: Tag
+        type: select
+        list: true
+        options:
+          values:
+            - announcements
+            - notes
+            - events
+      - name: draft
+        label: Draft
+        type: boolean
+      - name: cover
+        label: Cover
+        type: object
+        fields:
+          - name: image
+            label: Image
+            type: image
+            required: false
+      - name: body
+        label: Body
+        type: rich-text
+        options:
+          image:
+            path: static/images
+            input: static/images
+            output: /images
+            extensions: [ jpg, jpeg, png ]
+
   - name: contact
     label: Contact Page
     path: content/contact/index.md
@@ -46,51 +95,3 @@ content:
             input: static/images
             output: /images
             extensions: [ jpg, jpeg, png ]
-
-  - name: posts
-    label: Posts
-    path: content/posts
-    type: collection
-    fields:
-      - name: title
-        label: Title
-        type: string
-      - name: weight
-        label: Priority
-        type: number
-        required: false
-      - name: date
-        label: Date
-        type: date
-      - name: tags
-        label: Tag
-        type: select
-        list: true
-        options:
-          values:
-            - announcements
-            - notes
-            - events
-      - name: draft
-        label: Draft
-        type: boolean
-      - name: cover
-        label: Cover
-        type: object
-        fields:
-          - name: image
-            label: Image
-            type: image
-            required: false
-      - name: body
-        label: Body
-        type: rich-text
-        options:
-          image:
-            path: static/images
-            input: static/images
-            output: /images
-            extensions: [ jpg, jpeg, png ]
-media:
-  input: static/images # Media files will be stored in the repo under static/images
-  output: /images # The src attribute for uploaded media will begin with /images
