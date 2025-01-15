@@ -34,4 +34,3 @@ outputs:
 
 params:
   defaultTheme: dark
-  ShowReadingTime: true

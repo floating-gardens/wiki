@@ -1,6 +1,5 @@
 ---
 title: "Contact"
-url: "/contact/"
 ---
 
 Below is a list of important phone numbers for emergencies, building maintenance, and essential services.
