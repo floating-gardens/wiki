@@ -1,0 +1,42 @@
+content:
+  - name: posts
+    label: Posts
+    path: content/posts
+    type: collection
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: date
+        label: Date
+        type: date
+      - name: tags
+        label: Tags
+        type: select
+        options:
+          values:
+            - announcements
+            - notes
+            - event
+        min: 1
+        max: 3
+        default:
+          - Design
+      - name: draft
+        label: Draft
+        type: boolean
+      - name: cover
+        label: Cover
+        type: object
+        fields:
+          - name: image
+            label: Image
+            type: image
+            required: false
+      - name: body
+        label: Body
+        type: text
+
+media:
+  input: static/images # Media files will be stored in the repo under static/images
+  output: /images # The src attribute for uploaded media will begin with /images
