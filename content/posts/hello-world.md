@@ -21,4 +21,6 @@ This wiki serves as a centralized hub for all things related to Floating Gardens
 
 Interested in joining the Tenants Association? Or perhaps you’d like to contribute content to this wiki? Reach out to us at [contact@example.org](mailto:contact@example.org).
 
-Thank you for visiting, and we look forward to growing this resource with your help! 🌿
+Thank you for visiting, and we look forward to growing this resource with your help! 🌿  
+  
+This is a test edit
